@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Experiment Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, , initial-scale=1">
+    <style>
+    #car
+        {
+        margin-top: 100px;
+            display: block;
+        }
+        canvas{
+        margin-left: 30%;
+            background:white;
+        }
+    </style>
+</head>
+<body onload="loadExperiment()">
+    
+    <img src="car.jpg" id="car">
+    <canvas id="myCanvas" width="720px" height="480px" style="border:1px solid #d3d3d3;">
+    <script src="../PIE/three.min.js"></script>    
+    <script src="../PIE/Detector.js"></script>
+    <script src="../PIE/OrbitControls.js"></script>
+    <script src="../PIE/TrackballControls.js"></script>
+    <script src="../PIE//dat.gui.min.js"></script>
+    <script src="../PIE/stats.min.js"></script>
+    <script src="../PIE/PIElibrary.js"></script>
+    <script src="experiment.js"></script>
+</body>
+</html>
